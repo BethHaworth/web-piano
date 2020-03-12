@@ -7,24 +7,24 @@ class Keyboard extends React.Component {
     render () {
         return (
             <div className="keyboard">
-                <Whitekey />
+                <Whitekey note='C4'/>
                 <Blackkey />
-                <Whitekey />
+                <Whitekey note='D4'/>
                 <Blackkey />
-                <Whitekey />
-                <Whitekey />
+                <Whitekey note='E4'/>
+                <Whitekey note='F4'/>
                 <Blackkey />
-                <Whitekey />
+                <Whitekey note='G4'/>
                 <Blackkey />
-                <Whitekey />
+                <Whitekey note='A4'/>
                 <Blackkey />
-                <Whitekey />
-                <Whitekey />
+                <Whitekey note='B4'/>
+                <Whitekey note='C5'/>
                 <Blackkey />
-                <Whitekey />
+                <Whitekey note='D5'/>
                 <Blackkey />
-                <Whitekey />
-                <Whitekey />
+                <Whitekey note='E5'/>
+                <Whitekey note='F5'/>
             </div>
         );
     }
