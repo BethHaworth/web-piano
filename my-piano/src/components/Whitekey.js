@@ -4,15 +4,9 @@ import * as Tone from "tone";
 
 class Whitekey extends React.Component {
 
-    onKeyDown = () =>{
-        var synth = new Tone.Synth().toMaster()
-        synth.triggerAttackRelease(this.props.note, '8n')
-    }
-
     render () {
-        return <button onKeyDown = {this.onKeyDown} > Button </button>
+        return <button className={this.props.active ? `whitekey whitekey_pressed` : `whitekey`} onKeyDown = {this.onKeyDown} >  </button>
     }
 }
-
 
 export default Whitekey;
