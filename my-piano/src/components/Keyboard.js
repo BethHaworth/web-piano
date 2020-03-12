@@ -24,7 +24,6 @@ class Keyboard extends React.Component {
                 <Whitekey />
                 <Blackkey />
                 <Whitekey />
-                <Blackkey />
                 <Whitekey />
             </div>
         );
