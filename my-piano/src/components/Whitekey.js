@@ -3,7 +3,7 @@ import './Whitekey.css';
 
 class Whitekey extends React.Component {
     render () {
-        return <button> Button </button>
+        return <button className= "whitekey">  </button>
     }
 }
 

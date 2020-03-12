@@ -1,0 +1,19 @@
+.blackkey {
+    position: absolute;
+    top: -1px;
+    left: 37.5px;
+    width: 30px;
+    height: 120px;
+    background: black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    white-space: nowrap;
+  }
+  
+.blackkey:active {
+    box-shadow: 0px 3px 5px #666;
+  }
+  
